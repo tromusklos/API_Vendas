@@ -1,0 +1,57 @@
+Olá..
+Para deixar mais fácil a correção deixo anexo os modelos para cadastro:
+
+
+
+
+========CLIENTE============
+{
+ "Nome": " Clecio",
+ "Email": "clecio@clecio.com",
+ "Senha": "25455498",
+ "Documento": "65.458.854-84",
+ "dataCadastro": "2020-11-12"
+
+}
+
+
+=========FORNECEDOR=========
+{
+
+    "Nome": "JOAO DE GAS",
+    "CNPJ": "22.333.444/0001-55"
+}
+
+=========PRODUTO=============
+{
+ 
+    "Nome": "Gas",
+    "Valor": 75,
+    "CodigoProduto": "658",		
+    "Promocao": false,
+    "ValorPromo" :75,
+    "Categoria": "geral",
+    "Imagem": "gás.PNG",
+    "Quantidade": 50,
+    "Fornecedor": {
+        "id" : 2
+    }
+}
+
+=========VENDA===============
+ {
+ "Fornecedor": {
+     "id": 1
+ },
+
+ "Cliente": {
+     "id": 1
+ }, 
+
+   "Produtos": [
+       {"id": 2},
+       {"id": 4}
+       ],
+
+ "DataCompra": "2020-11-12"
+}

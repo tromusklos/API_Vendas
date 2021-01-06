@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API</name>
+    </assembly>
+    <members>
+        <member name="M:API.Controllers.ClientesController.Cliente">
+            <summary>
+            Metodo resposavel por retornar todos os clientes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ClientesController.ClienteGetId(System.Int32)">
+            <summary>
+            Metodo resposavel por retornar apenas um unico cliente
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ClientesController.CadastroCliente(API.Models.Cliente)">
+            <summary>
+            Metodo responsável por registrar o usuario
+            </summary>
+            <param name="cliente"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ClientesController.Login(API.DTO.LoginDTO)">
+            <summary>
+            Medoto responsável pelo login e gerar o token de autenticação 
+            </summary>
+            <param name="credenciais"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ClientesController.EditarCliente(System.Int32,API.Models.Cliente)">
+            <summary>
+            Método responsável para editar o cliente/usuario
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ClientesController.DeletarCliente(System.Int32)">
+            <summary>
+            Método responsável para deletar usuário 
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ClientesController.ClienteCrescente(API.Models.Cliente)">
+            <summary>
+            Método responsável por listar em ordem alfabética crescente nome do cliente  
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ClientesController.ClienteDecrescente(API.Models.Cliente)">
+            <summary>
+            Método responsável por listar em ordem alfabética decrescente nome do cliente  
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ClientesController.ClienteNomes(System.String)">
+            <summary>
+            Método responsável por buscar cliente por nome 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.FornecedoresController.Fornecedor">
+            <summary>
+            Método responsável por retornar todos os fornecedores
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.FornecedoresController.FornecedorGetId(System.Int32)">
+            <summary>
+            Método responsável por retornar apenas um unico fornecedores
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.FornecedoresController.CadastroFornecedores(API.Models.Fornecedor)">
+            <summary>
+            Método responsável por registrar fornecedores
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.FornecedoresController.EditarFonecedor(System.Int32)">
+            <summary>
+            Método responsável por editar fornecedores
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.FornecedoresController.DeletarFornecedor(System.Int32)">
+            <summary>
+            Método responsável por deletar fornecedores
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.FornecedoresController.FornecedorCrescente">
+            <summary>
+            Método responsável por listar em ordem alfabética crescente nome do fornecedor 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.FornecedoresController.FornecedorDecrescente">
+            <summary>
+            Método responsável por listar em ordem alfabética decrescente nome do fornecedor
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.FornecedoresController.FornecedorNomes(System.String)">
+            <summary>
+            Método responsável por buscar fornecedor por nome 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ProdutosController.Produto">
+            <summary>
+            Metodo resposavel por retornar todos os produtos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ProdutosController.ProdutoGetId(System.Int32)">
+            <summary>
+            Metodo resposavel por retornar apenas um unico produto
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ProdutosController.CadastroCliente(API.Models.Produto)">
+            <summary>
+            Metodo resposavel por retornar por registrar produto
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ProdutosController.EditarProduto(System.Int32,API.Models.Produto)">
+            <summary>
+            Método responsável por editar produtos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ProdutosController.DeletarProduto(System.Int32)">
+            <summary>
+            Método responsável por deletar produtos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ProdutosController.ProdutoCrescente(API.Models.Produto)">
+            <summary>
+            Método responsável por listar em ordem alfabética crescente nome do produto
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ProdutosController.ProdutoDecrescente(API.Models.Produto)">
+            <summary>
+            Método responsável por listar em ordem alfabética decrescente nome do produto
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ProdutosController.ProdutoNomes(System.String)">
+            <summary>
+            Método responsável por buscar produto por nome 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.VendasController.Get">
+            <summary>
+            Método responsável por lisas as vendas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.VendasController.VendaGetId(System.Int32)">
+            <summary>
+            Método resposável por buscar venda por Id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.VendasController.Venda(API.DTO.VendaDTO)">
+            <summary>
+            Método responsável por venda do produto
+            </summary>
+            <param name="venda"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
